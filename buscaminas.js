@@ -7,7 +7,7 @@ class board{
 		for(let i=0;i<x;i++){
 			table +=`<tr height="50">`;
 			for(let j=0;j<x;j++){
-					table +=`<td width="50" bgcolor="white" id =${i}.${j} ></td>`;
+					table +=`<td width="50" text-align="center" bgcolor="white" id =${i}.${j} ></td>`;
 			}
 			table +=`</tr>`;
 		}
